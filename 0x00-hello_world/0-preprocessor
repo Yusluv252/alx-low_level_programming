@@ -1,2 +1,2 @@
-#!/bib/bash
+#!/bin/bash
 gcc $CFILE -E -0 c
