@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * _strcpy - function name
- * @dest: fuction parameter 1
- * @src: function parameter 2
- * Return: String
+ * _strcpy - copies string
+ * @dest: destination
+ * @src: source
+ * Return: Dest
  */
 
 char *_strcpy(char *dest, char *src)
 {
 	int i;
 
-	for (i = 0; src[i] != '\0'; i++)
+	for (i = 0 ; src[i] != '\0' ; i++)
 	{
 	dest[i] = src[i];
 	dest[i] = '\0';
