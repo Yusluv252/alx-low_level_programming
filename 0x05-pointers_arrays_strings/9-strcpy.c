@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strcpy - function name
  * @dest: fuction parameter 1
@@ -15,5 +16,5 @@ char *_strcpy(char *dest, char *src)
 	dest[i] = src[i];
 	dest[i] = '\0';
 	}
-	return(dest);
+	return (dest);
 }
